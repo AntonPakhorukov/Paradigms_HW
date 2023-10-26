@@ -6,7 +6,7 @@ public class View {
     Gamer gamerTwo = new Gamer("G2", 'O');
     Input input = new Input(gamerOne, gamerTwo, table);
     public void game() {
-                System.out.print("Введите имя первого игрока: ");
+        System.out.print("Введите имя первого игрока: ");
         gamerOne.setName(scan.nextLine());
         System.out.print("Введите имя второго игрока: ");
         gamerTwo.setName(scan.nextLine());
